@@ -13,8 +13,17 @@ https://frontend-systems-jtxw.vercel.app/
 Add screenshots of:
 
 - Home Page
+
+- <img width="1913" height="850" alt="Screenshot 2026-07-24 235047" src="https://github.com/user-attachments/assets/1f7dec88-50b3-4584-a2c2-8c9b76f8d687" />
+
 - Product Details Page
+
+- <img width="1875" height="886" alt="Screenshot 2026-07-24 235237" src="https://github.com/user-attachments/assets/073dea6c-4136-4659-b58e-8ec5f2bacbb1" />
+
 - Shopping Cart
+
+- <img width="1887" height="875" alt="Screenshot 2026-07-24 235411" src="https://github.com/user-attachments/assets/85e52b9c-660c-43f7-94e3-17f63d2693c2" />
+
 
 ---
 
