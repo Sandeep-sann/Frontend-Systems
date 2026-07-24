@@ -4,7 +4,7 @@ A modern React e-commerce storefront built using the Fake Store API.
 
 ## 🚀 Live Demo
 
-https://your-vercel-url.vercel.app
+https://frontend-systems-jtxw.vercel.app/
 
 ---
 
