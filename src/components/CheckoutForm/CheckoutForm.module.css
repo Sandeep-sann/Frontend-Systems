@@ -1,0 +1,80 @@
+.checkoutForm {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1);
+}
+
+.checkoutForm h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.formGroup label {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.formGroup input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.formGroup input:focus {
+  outline: none;
+  border-color: #0077ff;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.row .formGroup {
+  flex: 1;
+}
+
+.error {
+  color: crimson;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: #0077ff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submitBtn:hover {
+  background: #005fd6;
+}
+
+@media (max-width: 768px) {
+  .checkoutForm {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 0;
+  }
+}

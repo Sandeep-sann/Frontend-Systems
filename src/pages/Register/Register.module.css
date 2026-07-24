@@ -1,0 +1,82 @@
+.container {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 450px;
+  background: white;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1);
+}
+
+.card h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+input:focus {
+  border-color: #0077ff;
+  outline: none;
+}
+
+button {
+  padding: 14px;
+  border: none;
+  background: #0077ff;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fd6;
+}
+
+.error {
+  background: #ffe5e5;
+  color: red;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.loginText {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.loginText a {
+  color: #0077ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.loginText a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 25px;
+  }
+}

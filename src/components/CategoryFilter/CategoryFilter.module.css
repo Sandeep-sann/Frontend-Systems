@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.button {
+  padding: 10px 18px;
+  border: 2px solid #0077ff;
+  border-radius: 25px;
+  background-color: #ffffff;
+  color: #0077ff;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0077ff;
+  color: #ffffff;
+}
+
+.active {
+  background-color: #0077ff;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .container {
+    gap: 10px;
+  }
+
+  .button {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    justify-content: flex-start;
+  }
+
+  .button {
+    width: 100%;
+    text-align: center;
+  }
+}

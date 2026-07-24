@@ -1,0 +1,168 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* Reset */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root Variables */
+
+:root {
+  --primary-color: #0077ff;
+  --primary-hover: #005fd6;
+
+  --secondary-color: #f5f7fa;
+
+  --text-color: #222222;
+  --text-light: #666666;
+
+  --white: #ffffff;
+
+  --border-color: #dddddd;
+
+  --shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+  --radius: 10px;
+
+  --transition: 0.3s ease;
+}
+
+/* Body */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--secondary-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Images */
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Buttons */
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Inputs */
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+/* Lists */
+
+ul {
+  list-style: none;
+}
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-color);
+}
+
+/* Paragraph */
+
+p {
+  color: var(--text-light);
+}
+
+/* Container */
+
+.container {
+  width: min(1280px, 92%);
+  margin: auto;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ececec;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-hover);
+}
+
+/* Selection */
+
+::selection {
+  background: var(--primary-color);
+  color: white;
+}
+
+/* Responsive Typography */
+
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
